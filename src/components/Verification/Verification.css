@@ -1,0 +1,60 @@
+.side-image {
+    background-color: #E8F9F1;
+    height: 86vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 0%;
+}
+
+@media (max-width: 1000px) {
+    .side-image {
+        height: auto;
+        position: relative;
+    }
+}
+
+.content {
+    padding: 80px;
+}
+
+@media (max-width: 640px) {
+    .content {
+        padding: 30px;
+    }
+}
+
+.content h3 {
+
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 41px;
+
+    /* identical to box height, or 164% */
+    letter-spacing: 0.374px;
+
+    color: black;
+}
+
+.content h4 {
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: -0.078px;
+
+    /* Label Light / Secondary */
+    color: rgba(60, 60, 67, 0.6);
+}
+
+.inner-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}

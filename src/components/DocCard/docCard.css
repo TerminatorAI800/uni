@@ -1,0 +1,88 @@
+.outer-box {
+    position: relative;
+    width: 235px;
+    height: 264px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(0deg, #E6F8EF, #E6F8EF), #CFD8DC;
+    box-shadow: -16px -16px 40px rgba(253, 255, 255, 0.8), 16px 16px 40px rgba(187, 195, 206, 0.6);
+    border-radius: 16px;
+    margin-top: 60px;
+}
+
+.inner-box {
+
+    position: absolute;
+    width: 107px;
+    height: 116px;
+    left: 64px;
+    top: 67px;
+
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #CFD8DC;
+    box-shadow: -16px -16px 40px rgba(253, 255, 255, 0.8), 16px 16px 40px rgba(187, 195, 206, 0.6);
+    border-radius: 16px;
+}
+
+.inner-box img {
+
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    left: 22px;
+    top: 23px;
+}
+
+.outer-box .status-pending {
+    position: absolute;
+    height: 18px;
+    left: 135px;
+    top: 14px;
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.078px;
+    color: #F1C40F;
+
+
+}
+
+.outer-box .status-verified {
+    position: absolute;
+    height: 18px;
+    left: 135px;
+    top: 14px;
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.078px;
+    color: rgb(24, 199, 161);
+
+
+}
+
+.outer-box .doc-name {
+    position: absolute;
+    width: 137px;
+    height: 21px;
+    left: 54px;
+    top: 199px;
+
+    font-family: IBM Plex Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 1px;
+
+    /* blueGrey600 */
+    color: #546E7A;
+
+
+}

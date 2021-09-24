@@ -1,0 +1,51 @@
+.card {
+  position: relative;
+  width: 409px;
+  height: 68px;
+  /* left: 74px;
+  top: 284px; */
+  background: linear-gradient(0deg, #ffffff, #ffffff), #cfd8dc;
+  box-shadow: 16px 16px 40px rgba(187, 195, 206, 0.2);
+  border-radius: 16px;
+}
+
+.inputField {
+  position: absolute;
+  width: 65%;
+  height: 18px;
+  left: 10px;
+  top: 25px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: -0.078px;
+  border: 0px;
+  outline: none;
+  color: rgba(60, 60, 67, 0.6);
+}
+
+.searchButton {
+  position: absolute;
+  width: 107px;
+  height: 50px;
+  left: 290px;
+  top: 10px;
+  color: #ffffff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  background: linear-gradient(0deg, #4aab96, #4aab96), #cfd8dc;
+  border-radius: 8px;
+  outline: none;
+  border: 0px;
+}
+
+.searchButton:hover {
+  background: linear-gradient(0deg, #4aab96, #91b6ae), #7ac0dd;
+}
+
+.searchButton:active {
+  background: linear-gradient(0deg, #4aab96, #4aab96), #cfd8dc;
+}

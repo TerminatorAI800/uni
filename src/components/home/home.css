@@ -1,0 +1,15 @@
+body{
+  background-color: #D7F3EB ;
+}
+
+.center-div
+{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contain {
+  height: 100vh;
+  background-color:  #D7F3EB;
+}

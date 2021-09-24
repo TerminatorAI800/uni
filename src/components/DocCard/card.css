@@ -1,0 +1,64 @@
+.outer {
+    position: relative;
+    width: 205px;
+height: 236px;
+left: 0px;
+top: 0px;
+margin: 20px;
+background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #CFD8DC;
+box-shadow: -16px -16px 40px rgba(253, 255, 255, 0.8), 16px 16px 40px rgba(187, 195, 206, 0.3);
+border-radius: 16px;
+}
+.outer .inner {
+    position: absolute;
+width: 67px;
+height: 62px;
+left: 19px;
+top: 26px;
+
+background: #4AAB96;
+border-radius: 12px;
+}
+
+.inner .heading {
+    position: absolute;
+    width: 180px;
+    height: 40px;
+    left: 0px;
+    top: 100px;
+    
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 40px;
+    
+    /* identical to box height, or 160% */
+    
+    color: #000000;
+}
+
+.des {
+    position: absolute;
+width: 163px;
+height: 54px;
+/* left: 19px; */
+top: 150px;
+
+font-family: SF Pro Text;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 18px;
+
+/* or 138% */
+letter-spacing: -0.078px;
+
+color: rgba(60, 60, 67, 0.6);
+}
+
+@media (max-width: 768px) {
+    .outer{
+        margin: 0px;
+    }
+}
