@@ -1,4 +1,2 @@
-# uni
-
-## Blockchain based Identity cards.
+# uni, a NFT store.
 
